@@ -29,6 +29,13 @@
     "redux-persist": "6.0.0",
     "styled-components": "5.3.9",
     "use-sound": "4.0.1",
+    "react-emotion": "10.0.0",
+    "react-icons": "4.7.1",
+    "react-intersection-observer": "9.4.2",
+    "react-lines-ellipsis": "0.15.3",
+    "react-redux": "8.0.5",
+    "react-countdown": "^2.3.5",
+    
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
