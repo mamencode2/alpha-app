@@ -10,6 +10,7 @@ import { questions } from "../api/qNa";
 //import {question} from '../api/'
 const QuizContext = createContext();
 
+
 export function useQuiz() {
   return useContext(QuizContext);
 }
