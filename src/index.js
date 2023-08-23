@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
+import "./fonts/Geometos_neue_bold.otf";
+import "./fonts/Geometos_neue_light.otf";
+import "./fonts/shineFont.woff2";
+import "./fonts/iconfont.woff2";
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
