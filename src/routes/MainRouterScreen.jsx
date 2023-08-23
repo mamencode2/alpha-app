@@ -7,6 +7,15 @@ import {
   defer
 } from "react-router-dom";
 
+
+import AlphabetScreen from "../screens/AlphabetScreen";
+import DictioneryScreen from "../screens/DictioneryScreen";
+import LessonScreen from "../screens/LessonScreen";
+import MainLayout from "../screens/MainLayout";
+import QuestionScreen from "../screens/QuestionScreen";
+import StudyScreen from "../screens/StudyScreen";
+import TreasuresScreen from "../screens/TreasuresScreen";
+
 function ErrorBoundElement() {
   return (
     <div>
