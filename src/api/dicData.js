@@ -1,9 +1,7 @@
 let dicData = [
   {
     word: "amharic አማርኛ"
-  },
-  {
-    word: ""
+
   },
   {
     word: "an ant ጉንዳን"

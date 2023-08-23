@@ -2,6 +2,7 @@ const imgur = {
   clientId: "8194d516296793f"
 };
 
+
 export async function uploadGif(gifFile) {
   const formData = new FormData();
   formData.append("image", gifFile);
