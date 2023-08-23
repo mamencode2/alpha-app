@@ -36,6 +36,7 @@ const router = createBrowserRouter(
     </>
   )
 );
+
 export default function MainRouterScreen() {
   return <RouterProvider router={router} />;
 }
