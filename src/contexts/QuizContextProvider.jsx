@@ -2,13 +2,14 @@ import React, {
   useState,
   useContext,
   createContext,
-  useRef,
+  
   useEffect
 } from "react";
 import { dicData, extrDic, amharicRep } from "../api/dicData";
 import { questions } from "../api/qNa";
 //import {question} from '../api/'
 const QuizContext = createContext();
+
 
 
 export function useQuiz() {
