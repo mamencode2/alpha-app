@@ -1,4 +1,4 @@
-//import './App.css';
+
 import { QuizContextProvider } from "./contexts/QuizContextProvider";
 import MainRouterScreen from "./routes/MainRouterScreen";
 
