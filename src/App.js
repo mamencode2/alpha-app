@@ -6,10 +6,10 @@ import MainRouterScreen from "./routes/MainRouterScreen"
 export default function App(){
   return(
     <QuizContextProvider>
-    <div>
+    
 
       <MainRouterScreen/>
-    </div>
+    
     </QuizContextProvider>
   )
 }
