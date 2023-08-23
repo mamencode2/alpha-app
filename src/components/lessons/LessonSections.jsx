@@ -5,7 +5,7 @@ import { combinedLessons } from "../../api/lessonsData";
 import LessonItem from "./LessonItem";
 
 function LessonSections() {
-  console.log(combinedLessons);
+  //console.log(combinedLessons);
   return (
     <div
       style={{
