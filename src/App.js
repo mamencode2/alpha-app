@@ -7,6 +7,7 @@ export default function App(){
     <div>
       
       <h1>hello world11</h1>
+      
     </div>
     </QuizContextProvider>
   )
