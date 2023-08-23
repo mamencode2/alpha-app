@@ -1,17 +1,9 @@
+import React from "react"
 
-import { QuizContextProvider } from "./contexts/QuizContextProvider";
-//import MainRouterScreen from "./routes/MainRouterScreen";
-
-
-function App() {
-  return (
-    <QuizContextProvider>
-      <div>
-hello world
-
-      </div>
-    </QuizContextProvider>
-  );
+export default function App(){
+  return(
+    <div>
+      <h1>hello world</h1>
+    </div>
+  )
 }
-
-export default App;
