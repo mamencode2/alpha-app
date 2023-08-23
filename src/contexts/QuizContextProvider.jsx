@@ -5,8 +5,10 @@ import React, {
   
   useEffect
 } from "react";
-import {  amharicRep } from "../api/dicData";
+
 import { questions } from "../api/qNa";
+//import {  amharicRep } from "../api/dicData";
+//import { questions } from "../api/qNa";
 //import {question} from '../api/'
 const QuizContext = createContext();
 
