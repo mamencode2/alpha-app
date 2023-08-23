@@ -5,7 +5,17 @@ export default function App(){
     <div>
       
       <h1>hello world11 uuuuyyyyyyyyy</h1>
-      
+      <Qheader
+      />
+    </div>
+  )
+}
+
+
+function Qheader() {
+  return(
+    <div>
+      qheadet
     </div>
   )
 }
