@@ -6,7 +6,10 @@ import MainRouterScreen from "./routes/MainRouterScreen";
 function App() {
   return (
     <QuizContextProvider>
-      <MainRouterScreen />
+      <div>
+hello world
+
+      </div>
     </QuizContextProvider>
   );
 }
