@@ -5,7 +5,7 @@ import React, {
   
   useEffect
 } from "react";
-import { dicData, extrDic, amharicRep } from "../api/dicData";
+import {  amharicRep } from "../api/dicData";
 import { questions } from "../api/qNa";
 //import {question} from '../api/'
 const QuizContext = createContext();
@@ -24,7 +24,7 @@ export function QuizContextProvider({ children }) {
     questions[questions.length - 1].qId
   );
 
-  console.log("data", amharicRep);
+  //console.log("data", amharicRep);
   //let currQtn = questions[currentQIndex];
   //console.log(questions.findLastIndex((el) => el.qId));
   function handleCheckAnswer(subAnswer) {
