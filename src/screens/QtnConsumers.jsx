@@ -6,6 +6,8 @@ import useSound from "use-sound";
 import corrSound from "../api/sounds/sucss.mp3";
 import completed from "../api/sounds/completed.mp3";
 
+
+
 import Sticky from "react-stickynode";
 import QtnOneThree from "../components/qtnLayout/QtnOneThree";
 import { useQuiz } from "../contexts/QuizContextProvider";

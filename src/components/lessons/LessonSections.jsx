@@ -22,6 +22,8 @@ function LessonSections() {
           return <LessonItem key={item.lesson} item={lessonObj} />;
         })}
       </Grid>
+
+      
     </div>
   );
 }

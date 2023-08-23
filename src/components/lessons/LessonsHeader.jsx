@@ -9,6 +9,8 @@ import {
   useSearchParams
 } from "react-router-dom";
 
+
+
 function LessonsHeader({ likes, gems }) {
   return (
     <div

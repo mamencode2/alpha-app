@@ -3,6 +3,9 @@ import { IconButton } from "@mui/material";
 import Sticky from "react-stickynode";
 import { useQuiz } from "../../contexts/QuizContextProvider";
 
+
+
+
 export default function QtnHeader({ onClick }) {
   const { score } = useQuiz();
   return (
@@ -13,6 +16,7 @@ export default function QtnHeader({ onClick }) {
         padding: "20px 0"
       }}
     >
+      
       <div style={{ backgroundColor: "#fff" }}>
         <Sticky
           innerZ={999}

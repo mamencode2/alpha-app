@@ -4,6 +4,8 @@ import BottomNav from "../components/navs/BottomNav";
 //import BottomNav from "../components/nav/BottomNav";
 const PageLayout = ({ children }) => children;
 
+
+
 export default function MainLayout() {
   return (
     <PageLayout>

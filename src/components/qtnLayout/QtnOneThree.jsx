@@ -14,6 +14,9 @@ function QtnOneThree() {
   let sdEffect = isLast ? completed : corrSound;
   const [play] = useSound(sdEffect);
 
+
+
+
   function handleSubmitAnswer(selIndex) {
     let resAns = checkAnswer(selIndex);
     //console.log(resAns);
@@ -21,6 +24,7 @@ function QtnOneThree() {
     if (resAns) {
       play();
     }
+    
     setSelAns(
       currQtn.questionsAnswerChoices.find((el, i) => i === selIndex.answerIndex)
     );

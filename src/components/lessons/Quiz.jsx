@@ -5,6 +5,8 @@ export default function Quiz({ questions }) {
   const [answers, setAnswers] = useState([]);
   const [score, setScore] = useState(0);
 
+
+  
   const handleQuestionChange = (e) => {
     const answer = e.target.value;
     setAnswers([...answers, answer]);

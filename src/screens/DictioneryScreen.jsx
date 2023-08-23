@@ -5,3 +5,4 @@ function DictioneryScreen() {
 }
 
 export default DictioneryScreen;
+

@@ -2,12 +2,15 @@ import React from "react";
 import { Avatar, Grid, CircularProgress, Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
+
+
 function LessonItem({ item }) {
   let navigate = useNavigate();
   function handleGoToQ(itm) {
     console.log(itm);
     navigate("/qNa");
   }
+  
   return (
     <Grid
       item

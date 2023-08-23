@@ -6,10 +6,13 @@ import { Box, Grid, IconButton } from "@mui/material";
 import { questions } from "../api/qNa";
 import { QuizContextProvider } from "../contexts/QuizContextProvider";
 import QtnConsumers from "./QtnConsumers";
+
+
 function QuestionScreen() {
   const [currentQtnIndex, setCurrQIndex] = useState(0);
   const navigate = useNavigate();
 
+  
   return (
     <>
       <QtnConsumers />
