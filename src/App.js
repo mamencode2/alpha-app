@@ -1,6 +1,6 @@
 
 import { QuizContextProvider } from "./contexts/QuizContextProvider";
-import MainRouterScreen from "./routes/MainRouterScreen";
+//import MainRouterScreen from "./routes/MainRouterScreen";
 
 
 function App() {
