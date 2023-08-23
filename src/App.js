@@ -1,12 +1,14 @@
-import './App.css';
-
+//import './App.css';
+import { QuizContextProvider } from "./contexts/QuizContextProvider";
+import MainRouterScreen from "./routes/MainRouterScreen";
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world !!!Bay ii46</h1>
-    </div>
+    
+    <QuizContextProvider>
+      <MainRouterScreen />
+    </QuizContextProvider>
   );
 }
 
