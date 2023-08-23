@@ -1,16 +1,14 @@
 import React from "react"
 
 import {QuizContextProvider}from './contexts/QuizContextProvider'
+import MainRouterScreen from "./routes/MainRouterScreen"
 
 export default function App(){
   return(
     <QuizContextProvider>
     <div>
 
-      
-      <h1>hello world11 uuuuyyyyyyyyy</h1>
-      <Qheader
-      />
+      <MainRouterScreen/>
     </div>
     </QuizContextProvider>
   )
